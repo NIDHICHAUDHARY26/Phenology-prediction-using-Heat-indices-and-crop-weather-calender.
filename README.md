@@ -23,3 +23,14 @@ The most important step was calculating the Growing Degree Days (GDD).
 Aggregation for Each Phenology Stage
 For each growth stage (e.g., tillering, booting), the corresponding cumulative GDD and average temperature up to that date were calculated.
 This linked phenological observations with weather data, creating the dataset used for machine learning.
+
+in this project I used Linear regration, RF, SVM, XGBOOST.And  Predictions were compared against actual phenology observations.
+Used statistical metrics:
+MSE (Mean Squared Error) : penalizes large errors.
+RMSE (Root Mean Squared Error) : error in actual days.
+MAE (Mean Absolute Error) –:average error in days.
+R² (Coefficient of Determination) :proportion of variance explained.
+
+and the conclusion i find out is The study demonstrated that wheat phenology can be effectively predicted using heat indices (GDD) combined with machine learning models. Among the models tested, Random Forest and XGBoost provided the most accurate predictions, closely matching actual stage durations, while Linear Regression showed underfitting and SVM gave moderate results. This highlights the potential of integrating weather-based indices with ML to develop dynamic crop calendars, which can improve agricultural planning and resource management.
+
+
